@@ -56,3 +56,10 @@ And two "many-to-many" link tables to connect them:
 
 * A **User-Role** table to track which users have which roles.
 * A **Role-Permission** table to track which permissions are granted to which roles.
+
+
+
+# Running the Program
+```shell
+uvicorn main:app --reload
+```
